@@ -1,0 +1,14 @@
+/Users/rashad/Desktop/BPA202-OOP/OOP-Intro/OOP-Intro/bin/Debug/net9.0/OOP-Intro
+/Users/rashad/Desktop/BPA202-OOP/OOP-Intro/OOP-Intro/bin/Debug/net9.0/OOP-Intro.deps.json
+/Users/rashad/Desktop/BPA202-OOP/OOP-Intro/OOP-Intro/bin/Debug/net9.0/OOP-Intro.runtimeconfig.json
+/Users/rashad/Desktop/BPA202-OOP/OOP-Intro/OOP-Intro/bin/Debug/net9.0/OOP-Intro.dll
+/Users/rashad/Desktop/BPA202-OOP/OOP-Intro/OOP-Intro/bin/Debug/net9.0/OOP-Intro.pdb
+/Users/rashad/Desktop/BPA202-OOP/OOP-Intro/OOP-Intro/obj/Debug/net9.0/OOP-Intro.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rashad/Desktop/BPA202-OOP/OOP-Intro/OOP-Intro/obj/Debug/net9.0/OOP-Intro.AssemblyInfoInputs.cache
+/Users/rashad/Desktop/BPA202-OOP/OOP-Intro/OOP-Intro/obj/Debug/net9.0/OOP-Intro.AssemblyInfo.cs
+/Users/rashad/Desktop/BPA202-OOP/OOP-Intro/OOP-Intro/obj/Debug/net9.0/OOP-Intro.csproj.CoreCompileInputs.cache
+/Users/rashad/Desktop/BPA202-OOP/OOP-Intro/OOP-Intro/obj/Debug/net9.0/OOP-Intro.dll
+/Users/rashad/Desktop/BPA202-OOP/OOP-Intro/OOP-Intro/obj/Debug/net9.0/refint/OOP-Intro.dll
+/Users/rashad/Desktop/BPA202-OOP/OOP-Intro/OOP-Intro/obj/Debug/net9.0/OOP-Intro.pdb
+/Users/rashad/Desktop/BPA202-OOP/OOP-Intro/OOP-Intro/obj/Debug/net9.0/OOP-Intro.genruntimeconfig.cache
+/Users/rashad/Desktop/BPA202-OOP/OOP-Intro/OOP-Intro/obj/Debug/net9.0/ref/OOP-Intro.dll
