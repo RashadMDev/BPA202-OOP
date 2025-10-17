@@ -15,6 +15,7 @@ class Program
     public static void Main()
     {
 
+        #region Object Initializers
         BankCustomer customer = new BankCustomer
         {
             Name = "Rashad",
@@ -45,8 +46,8 @@ class Program
             PhoneNumber = "+994501234567",
             Address = "Baku, Azerbaijan",
             CardNumber = "1234567890123456"
-        }
-        ;
+        };
+        #endregion
 
         // customer.Age = 26;
 
@@ -59,6 +60,7 @@ class Program
         // System.Console.WriteLine($"CustomerGender: {customer.Gender}");
         // System.Console.WriteLine($"CustomerAddress: {customer.Address}");
 
+        #region Method Calls
         // Console.Write("Enter your pin: ");
         // int pin = Convert.ToInt32(Console.ReadLine());
         // Console.Write("Enter amount to withdraw: ");
@@ -76,6 +78,7 @@ class Program
         System.Console.WriteLine("Enter New Pin: ");
         int newPin = Convert.ToInt32(Console.ReadLine());
         customer.ChangePin(oldPin, newPin);
+        #endregion
 
 
         #region Manual Data Set
