@@ -1,54 +1,50 @@
 ﻿#region Notes
 /*
-var, anonymous objects
-object initializers
-classes
+
 */
 #endregion
-
-
 namespace OOP_Intro;
 
 class Program
-
 {
     public static void Main()
     {
 
         #region Object Initializers
-        BankCustomer customer = new BankCustomer
-        {
-            Name = "Rashad",
-            Surname = "Mammadov",
-            Age = 25,
-            FinCode = "RM1234567",
-            IsMarried = true,
-            Salary = 1600.00f,
-            Pin = 1234,
-            CurrentBalance = 3000.00f,
-            Gender = "Male",
-            PhoneNumber = "+994501234567",
-            Address = "Baku, Azerbaijan",
-            CardNumber = "1234567890123456"
-        };
+        // BankCustomer customer = new BankCustomer
+        // {
+        //     Name = "Rashad",
+        //     Surname = "Mammadov",
+        //     Age = 25,
+        //     FinCode = "RM1234567",
+        //     IsMarried = true,
+        //     Salary = 1600.00f,
+        //     Pin = 1234,
+        //     CurrentBalance = 3000.00f,
+        //     Gender = "Male",
+        //     PhoneNumber = "+994501234567",
+        //     Address = "Baku, Azerbaijan",
+        //     CardNumber = "1234567890123456"
+        // };
 
-        BankCustomer anotherCustomer = new BankCustomer
-        {
-            Name = "Rashad",
-            Surname = "Mammadov",
-            Age = 25,
-            FinCode = "RM1234567",
-            IsMarried = true,
-            Salary = 1600.00f,
-            Pin = 1234,
-            CurrentBalance = 3000.00f,
-            Gender = "Male",
-            PhoneNumber = "+994501234567",
-            Address = "Baku, Azerbaijan",
-            CardNumber = "1234567890123456"
-        };
+        // BankCustomer anotherCustomer = new BankCustomer
+        // {
+        //     Name = "Rashad",
+        //     Surname = "Mammadov",
+        //     Age = 25,
+        //     FinCode = "RM1234567",
+        //     IsMarried = true,
+        //     Salary = 1600.00f,
+        //     Pin = 1234,
+        //     CurrentBalance = 3000.00f,
+        //     Gender = "Male",
+        //     PhoneNumber = "+994501234567",
+        //     Address = "Baku, Azerbaijan",
+        //     CardNumber = "1234567890123456"
+        // };
         #endregion
 
+        #region Manual
         // customer.Age = 26;
 
         // System.Console.WriteLine($"CustomerName: {customer.Name}");
@@ -59,6 +55,7 @@ class Program
         // System.Console.WriteLine($"CustomerPhoneNumber: {customer.PhoneNumber}");
         // System.Console.WriteLine($"CustomerGender: {customer.Gender}");
         // System.Console.WriteLine($"CustomerAddress: {customer.Address}");
+        #endregion
 
         #region Method Calls
         // Console.Write("Enter your pin: ");
@@ -73,13 +70,30 @@ class Program
         // double amountToDeposit = Convert.ToDouble(Console.ReadLine());
         // customer.DepositMoney(amountToDeposit, cardNumber);
 
-        System.Console.WriteLine("Enter Your Pin to Change: ");
-        int oldPin = Convert.ToInt32(Console.ReadLine());
-        System.Console.WriteLine("Enter New Pin: ");
-        int newPin = Convert.ToInt32(Console.ReadLine());
-        customer.ChangePin(oldPin, newPin);
-        #endregion
+        // while (true)
+        // {
+        //     Console.Write("Enter Your Pin to Change: ");
+        //     int oldPin = Convert.ToInt32(Console.ReadLine());
 
+        //     Console.Write("Enter New Pin: ");
+        //     int newPin = Convert.ToInt32(Console.ReadLine());
+
+        //     if (oldPin != customer.Pin)
+        //     {
+        //         Console.WriteLine("Incorrect Pin. Try again.\n");
+        //         continue;
+        //     }
+        //     else if (oldPin == newPin)
+        //     {
+        //         Console.WriteLine("New pin cannot be same as old pin\n");
+        //         continue;
+        //     }
+
+        //     customer.ChangePin(oldPin, newPin);
+        //     break;
+        // }
+
+        #endregion
 
         #region Manual Data Set
         // string name = "Rashad";
@@ -96,6 +110,7 @@ class Program
         #endregion
 
         #region Anonymous Object, var keyword
+
         // var customer = new
         // {
         //     Name = "Rashad",
@@ -111,6 +126,33 @@ class Program
         //     Address = "Baku, Azerbaijan"
         // };
         #endregion
+
+        #region Contstructor
+        // Book book = new Book(
+        //     "Republic",
+        //     "Plato",
+        //     300,
+        //     -380,
+        //     "Philosophy",
+        //     "A philosophical dialogue concerning justice and the order and character of the just city-state and",
+        //     9.99
+        // );
+        // book.GetInfo();
+        #endregion
+
+        #region Getter Setter Methods and Property calls
+        // Car car = new Car();
+
+        // Car car2 = new Car("BMW", "X5", 2022, "Black", 4000, 65999.99);
+
+        // car2.WheelCount = 4;
+        // System.Console.WriteLine(car2.WheelCount);
+        // System.Console.WriteLine(car2.Price);
+        // System.Console.WriteLine(car2.Type);
+        // car2.Type = "Sedan";
+        // System.Console.WriteLine(car2.Price);
+        #endregion
+
 
     }
 }

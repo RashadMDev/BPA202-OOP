@@ -4,9 +4,7 @@ namespace OOP_Intro;
 /*
 Class members: fields, methods(if method is related to fields, static keyword is not used but if method is independent of fields static keyword is used)
 Class default access modifier is internal
-Class field's default access modifier is private
-Class 
-
+Class fields' default access modifier is private
 */
 class BankCustomer
 {
@@ -22,6 +20,7 @@ class BankCustomer
       public string PhoneNumber;
       public string Address;
       public string CardNumber;
+
 
 
       public void WithdrawMoney(double amount, int pin)
@@ -58,6 +57,7 @@ class BankCustomer
 
       public void ChangePin(int oldPin, int newPin)
       {
+
             if (oldPin != Pin)
             {
                   Console.WriteLine("Incorrect Pin");
