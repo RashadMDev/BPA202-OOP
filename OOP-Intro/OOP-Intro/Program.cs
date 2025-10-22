@@ -1,6 +1,9 @@
 ﻿#region Notes
 /*
-
+Inheritance
+Diamond Problem
+Base (Super) Class (base keyword)
+CTOR calling itself (this keyword)
 */
 #endregion
 namespace OOP_Intro;
@@ -153,7 +156,19 @@ class Program
         // System.Console.WriteLine(car2.Price);
         #endregion
 
+        #region Inheritance, this and base keywords
+        // Student student = new Student("S001", 3.75f, "Rashad", "Mammadov", 25, "P001", 2025, 2025, false);
+        // System.Console.WriteLine($"Student Name: {student.Name}");
+        // System.Console.WriteLine($"Student Surname: {student.Surname}");
+        // System.Console.WriteLine($"Student Age: {student.Age}");
+        // System.Console.WriteLine($"Student Id: {student.StudentId}");
+        // System.Console.WriteLine($"Student GPA: {student.GPA}");
+        // System.Console.WriteLine($"Student Base Id: {student.Id}");
+        // System.Console.WriteLine($"Student Created At: {student.CreatedAt}");
+        // System.Console.WriteLine($"Student Updated At: {student.UpdatedAt}");
+        // System.Console.WriteLine($"Student Is Deleted: {student.IsDeleted}");
 
+        // Person person = new Person();
+        #endregion
     }
 }
-
