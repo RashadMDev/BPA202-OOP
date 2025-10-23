@@ -1,18 +1,16 @@
 ﻿#region Notes
 /*
-Inheritance
-Diamond Problem
-Base (Super) Class (base keyword)
-CTOR calling itself (this keyword)
+Abstraction
+Interface vs Abstract Class
 */
 #endregion
+
 namespace OOP_Intro;
 
 class Program
 {
     public static void Main()
     {
-
         #region Object Initializers
         // BankCustomer customer = new BankCustomer
         // {
@@ -170,5 +168,21 @@ class Program
 
         // Person person = new Person();
         #endregion
+
+        #region Polymorphism, Overriding vs Overloading, Sealed keyword
+        // Person person = new Person("John", "Doe");
+
+        // Animal myDog = new Dog();
+        // Animal myCat = new Cat();
+
+        // myCat.Speak();
+
+        // PaymentProcessor paymentProcessor = new PaymentProcessor();
+
+
+        // paymentProcessor.MakePayment(new CreditCardPayment());
+        // paymentProcessor.MakePayment(new PaypalDerived());
+        #endregion
+
     }
 }
