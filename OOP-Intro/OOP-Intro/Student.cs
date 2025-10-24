@@ -1,35 +1,35 @@
 namespace OOP_Intro;
 
 
-// public class BaseEntity
-// {
-//       public string Id { get; set; }
-//       public int CreatedAt { get; set; }
-//       public int UpdatedAt { get; set; }
-//       public bool IsDeleted { get; set; }
-//       // public BaseEntity()
-//       // {
-//
-//       // }
-//       // public BaseEntity(string id, int createdAt, int updatedAt, bool isDeleted)
-//       // {
-//       //       Id = id;
-//       //       CreatedAt = createdAt;
-//       //       UpdatedAt = updatedAt;
-//       //       IsDeleted = isDeleted;
-//       //       System.Console.WriteLine("BaseEntity Constructor Called");
-//       // }
-//
-// }
+public abstract class BaseEntity
+{
+      public string Id { get; set; }
+      public int CreatedAt { get; set; }
+      public int UpdatedAt { get; set; }
+      public bool IsDeleted { get; set; }
+      public BaseEntity()
+      {
 
-public class Person 
+      }
+      // public BaseEntity(string id, int createdAt, int updatedAt, bool isDeleted)
+      // {
+      //       Id = id;
+      //       CreatedAt = createdAt;
+      //       UpdatedAt = updatedAt;
+      //       IsDeleted = isDeleted;
+      //       System.Console.WriteLine("BaseEntity Constructor Called");
+      // }
+
+}
+
+public class Person
 {
       public string Name { get; set; }
       public string Surname { get; set; }
       public int Age { get; set; }
 
 
-      public Person(string name, string surname, int age): this(name , surname)
+      public Person(string name, string surname, int age) : this(name, surname)
       {
             Age = age;
             Console.WriteLine("age");
@@ -49,7 +49,7 @@ public class Person
 
       public Person()
       {
-            
+
       }
 
       // public Person()

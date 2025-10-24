@@ -184,5 +184,42 @@ class Program
         // paymentProcessor.MakePayment(new PaypalDerived());
         #endregion
 
+        #region Abstraction, Abstract classes
+        // Warrior warrior = new Warrior
+        // {
+        //     Name = "Thorin",
+        //     Health = 100,
+        //     Level = 5
+        // };
+        // Mage mage = new Mage
+        // {
+        //     Name = "Gandalf",
+        //     Health = 3000,
+        //     Level = 1000
+        // };
+        // Archer archer = new Archer
+        // {
+        //     Name = "Legolas",
+        //     Health = 90,
+        //     Level = 7
+        // };
+        // // Display stats and perform actions for the warrior
+        // System.Console.WriteLine("--- Warrior ---");
+        // warrior.ShowStats();
+        // warrior.Attack();
+        // warrior.Defend();
+
+        // // Display stats and perform actions for the mage
+        // System.Console.WriteLine("--- Mage ---");
+        // mage.ShowStats();
+        // mage.Attack();
+        // mage.Defend();
+
+        // System.Console.WriteLine("--- Archer ---");
+        // // Display stats and perform actions for the archer
+        // archer.ShowStats();
+        // archer.Attack();
+        // archer.Defend();
+        #endregion
     }
 }
